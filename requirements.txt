@@ -1,0 +1,13 @@
+dlib==19.17.0
+ffmpeg==1.4
+ffmpeg-python==0.2.0
+glob2==0.7
+imageio-ffmpeg==0.3.0
+imutils==0.5.2
+numpy==1.16.4
+opencv-python==4.1.0.25
+pytest==5.0.0
+pytube==9.5.2
+matplotlib==3.1.0
+dill==0.2.9
+discomp==1.5.0
