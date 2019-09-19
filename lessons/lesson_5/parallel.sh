@@ -1,7 +1,7 @@
 set -x
 
 # split the toy video (3:06 minutes) into 30 seconds parts
-ffmpeg -i toy.mp4 -c copy -map 0 -segment_time 00:00:30 -f segment split%03d.mp4
+ffmpeg -i samsung10.mp4 -c copy -map 0 -segment_time 00:00:30 -f segment split%03d.mp4
 
 # run the glasses disco on the cloud and wait for compute to finish
 # the --input accepts wildcard and will invoke the glasses_5.py script per input file
