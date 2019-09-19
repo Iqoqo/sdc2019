@@ -10,8 +10,8 @@
 ## Next steps
 1. Download docker 
     ```{r, engine='bash', pull_docker}
-    docker pull iqoqo/discofy:dld.local
-    docker tag iqoqo/discofy:dld.local discofy:dld.local
+    docker pull iqoqo/discofy:sdc.local
+    docker tag iqoqo/discofy:sdc.local discofy:sdc.local
     ```
 1. Run pytests inside the docker container.
     1. The docker does not include the source code, so we'll give it access to 
@@ -19,5 +19,5 @@
     inside the docker 
     ```{r, engine='bash', run_pytest}
     cd <project's root dir> 
-    docker run -it -v `pwd`:/home/codelab/ -w /home/codelab/lessons/lesson_1/ discofy:dld.local pytest
+    docker run -it -v `pwd`:/home/codelab/ -w /home/codelab/lessons/lesson_1/ discofy:sdc.local pytest
     ``` 
