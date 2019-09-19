@@ -12,10 +12,10 @@ If you are interested you can find the documentation online.
 1. To run your code:
     ```{r, engine='bash', discofy_video}
     cd <project's root dir> 
-    docker run -it -v `pwd`:/home/codelab/ -w /home/codelab/lessons/lesson_3/ discofy:dld.local python glasses_2.py <input video path> <output video path>
+    docker run -it -v `pwd`:/home/codelab/ -w /home/codelab/lessons/lesson_3/ discofy:sdc.local python glasses_3.py <input video path> <output video path>
     ``` 
 1. Test your solution. 
     ```{r, engine='bash', run_pytest}
     cd <project's root dir>
-    docker run -it -v `pwd`:/home/codelab/  -w /home/codelab/lessons/lesson_3 discofy:dld.local pytest
+    docker run -it -v `pwd`:/home/codelab/  -w /home/codelab/lessons/lesson_3 discofy:sdc.local pytest
     ```
