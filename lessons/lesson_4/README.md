@@ -8,7 +8,7 @@
 1. Run docker interactively 
     ```{r, engine='bash', interactive_disco}
     cd <project's root dir> 
-    docker run -it -v `pwd`:/home/codelab/  -w /home/codelab/lessons/lesson_4 discofy:dld.local
+    docker run -it -v `pwd`:/home/codelab/  -w /home/codelab/lessons/lesson_4 discofy:sdc.local
     ```
 1. `disco` is a command line interface to the Dis.co cloud backend 
 1. We made sure you are logged in so you don't have to
