@@ -8,7 +8,7 @@ import filecmp
 
 
 def test_solution_img():
-    discofy_image_solution("michael.jpg",
+    discofy_image_solution("team.png",
                            "disco-michael1.jpg")
 
     assert os.path.exists("disco-michael1.jpg"), \
@@ -16,13 +16,13 @@ def test_solution_img():
 
 
 def test_compare_img():
-    discofy_image_solution("michael.jpg",
+    discofy_image_solution("team.png",
                            "disco-michael1.jpg")
 
     assert os.path.exists("disco-michael1.jpg"), \
         "oops, something's wrong with the solution"
 
-    discofy_image("michael.jpg", "disco-michael2.jpg")
+    discofy_image("team.png", "disco-michael2.jpg")
 
     assert os.path.exists("disco-michael2.jpg"), \
         "Your code is not generating an output file"
@@ -36,28 +36,28 @@ def test_compare_img():
 
 
 def test_solution_video():
-    discofy_video_solution("very_short.mp4",
-                           "disco-very_short1.mp4")
+    discofy_video_solution("samsungfun.mp4",
+                           "disco-samsungfun1.mp4")
 
-    assert os.path.exists("disco-very_short1.mp4"), \
+    assert os.path.exists("disco-samsungfun1.mp4"), \
         "oops, something's wrong with the solution"
 
 
 def test_compare_video():
-    discofy_video_solution("very_short.mp4",
-                           "disco-very_short1.mp4")
+    discofy_video_solution("samsungfun.mp4",
+                           "disco-samsungfun1.mp4")
 
-    assert os.path.exists("disco-very_short1.mp4"), \
+    assert os.path.exists("disco-samsungfun1.mp4"), \
         "oops, something's wrong with the solution"
 
-    discofy_video("very_short.mp4",
-                  "disco-very_short2.mp4")
+    discofy_video("samsungfun.mp4",
+                  "disco-samsungfun2.mp4")
 
-    assert os.path.exists("disco-very_short2.mp4"), \
+    assert os.path.exists("disco-samsungfun2.mp4"), \
         "oops, something's wrong with the solution"
 
-    assert filecmp.cmp("disco-very_short1.mp4",
-                       "disco-very_short2.mp4",
+    assert filecmp.cmp("disco-samsungfun1.mp4",
+                       "disco-samsungfun2.mp4",
                        shallow=False), "well, your solution did generate " \
                                        "something, but it is different from " \
                                        "our solution. open the images to " \
