@@ -19,5 +19,5 @@ handling a single url including downloading and analyzing video
 1. Choose one main and update the code. In order to run it. 
     ```{r, engine='bash', interactive_disco}
     cd <project's root dir> 
-    docker run -it -v `pwd`:/home/codelab/  -w /home/codelab/lessons/lesson_6 discofy:dld.local python you_tube_face_detection.py <number_of_urls_to_handle>
+    docker run -it -v `pwd`:/home/codelab/  -w /home/codelab/lessons/lesson_6 discofy:sdc.local python you_tube_face_detection.py <number_of_urls_to_handle>
     ```
