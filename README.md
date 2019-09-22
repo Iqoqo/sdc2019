@@ -3,7 +3,7 @@
 
 # Welcome to Dis.co code lab
 
-![Yoad](misc/disco_Yoad.png) ![Zohar](misc/disco_Zohar.png) ![Hadas](misc/disco_Hadas.png) ![Gilad](misc/disco_Gilad.jpg =x150)
+![Yoad](misc/disco_Yoad.png) ![Zohar](misc/disco_Zohar.png) ![Hadas](misc/disco_Hadas.png) ![Gilad](misc/disco_Gilad.jpg =150x150)
 
 
 ## What you'll need to start
