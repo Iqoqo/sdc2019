@@ -46,9 +46,9 @@ git clone https://github.com/Iqoqo/sdc2019
 3) See how we can use the Dis.co Python APIs to parallelize our code for higher performance
 
 ## Authors & Contributors 
-Zohar Sacks 
-Gilad braunschvig
-Yoad Fekete
-Hadas Meitav
-Jon Barker
-Raymond Lo 
+- Zohar Sacks 
+- Gilad braunschvig
+- Yoad Fekete
+- Hadas Meitav
+- Jon Barker
+- Raymond Lo 
