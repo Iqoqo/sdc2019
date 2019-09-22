@@ -9,7 +9,7 @@
 1. Run docker interactively 
     ```{r, engine='bash', interactive_disco}
     cd <project's root dir> 
-    docker run -it -v `pwd`:/home/codelab/  -w /home/codelab/lessons/lesson_5 discofy:dld.local
+    docker run -it -v `pwd`:/home/codelab/  -w /home/codelab/lessons/lesson_5 discofy:sdc.local
     ```
 1. Checkout parallel.sh for the useful commands
     1. Use `ffmpeg` to split the video to parts
@@ -22,7 +22,7 @@
     3. Execute the script from outside the docker 
         ```{r, engine='bash', run_in_parallel}
         cd <project's root dir>
-        docker run -it -v `pwd`:/home/codelab/  -w /home/codelab/lessons/lesson_5 discofy:dld.local sh parallel.sh
+        docker run -it -v `pwd`:/home/codelab/  -w /home/codelab/lessons/lesson_5 discofy:sdc.local sh parallel.sh
         ```
         
 
