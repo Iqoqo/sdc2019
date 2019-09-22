@@ -12,7 +12,11 @@ To run the code, the following software is required to be installed on your loca
 
 Docker Desktop (http://www.docker.com). Please note that a user account should be created from the Docker Hub (https://hub.docker.com/) website. 
 
-To install on Mac,  please refer to this link. https://docs.docker.com/docker-for-mac/install/
+To install on Mac,  please refer to this link. 
+
+```
+https://docs.docker.com/docker-for-mac/install/
+```
 
 To install on Windows, please refer to this link.
 ```
