@@ -8,16 +8,47 @@
 
 ## What you'll need to start
 ### Environment
-1) Docker Desktop (www.docker.com)
-2) Download this code base. (git clone https://github.com/Iqoqo/sdc2019)
-3) Follow lesson_1 to download and install the docker image containing everything you'll need
+To run the code, the following software is required to be installed on your local machine.
 
+Docker Desktop (http://www.docker.com). Please note that a user account should be created from the Docker Hub (https://hub.docker.com/) website. 
+
+To install on Mac,  please refer to this link. https://docs.docker.com/docker-for-mac/install/
+
+To install on Windows, please refer to this link.
+```
+https://docs.docker.com/docker-for-windows/install/
+```
+To install on Linux (Ubuntu, CentOs or others), please refer to this link.
+```
+https://docs.docker.com/install/linux/docker-ce/ubuntu/
+```
+Git (optional but recommended)
+
+Windows, 
+```
+https://git-scm.com/download/win 
+```
+Mac or Linux, 
+```
+https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+```	
+Then, the source code of the lessons can be downloaded from the GitHub repository. https://github.com/Iqoqo/sdc2019
+
+To download the code, you can either use the following command with a command-line interface. 
+
+``` 
+git clone https://github.com/Iqoqo/sdc2019
+```
 
 ## What we'll do today
 1) Look at a cool example of a toy image and video processing code
 2) Use Dis.co for parallel batch computing using the cli 
-3) See how we can use the Dis.co platform to parallelize our code for higher performance
-4) See how we can use this to build a production service (REST API to discofy yourself)
-5) Install Dis.co agent on you computers?   
+3) See how we can use the Dis.co Python APIs to parallelize our code for higher performance
 
-
+## Authors & Contributors 
+Zohar Sacks 
+Gilad braunschvig
+Yoad Fekete
+Hadas Meitav
+Jon Barker
+Raymond Lo 
