@@ -50,7 +50,7 @@ git clone https://github.com/Iqoqo/sdc2019
 
 ## What we'll do today
 1) Look at a cool example of a toy image and video processing code
-2) Use Dis.co for parallel batch computing using the cli 
+2) Use Dis.co for parallel batch computing using the Dis.co's command-line interface (CLI) 
 3) See how we can use the Dis.co Python APIs to parallelize our code for higher performance
 
 ## Authors & Contributors 
