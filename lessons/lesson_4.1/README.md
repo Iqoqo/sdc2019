@@ -11,6 +11,7 @@
     cd <project's root dir> 
     docker run -it -v `pwd`:/home/codelab/  -w /home/codelab/lessons/lesson_4.1 discofy:sdc.local
     ```
+2. Run the disco command to run the script (glasses_4.py) remotely. 
     ```{r, engine='bash', run_demo}
     disco add --name disco_image --script glasses_4.py --input team.jpg --wait --run --download
 
