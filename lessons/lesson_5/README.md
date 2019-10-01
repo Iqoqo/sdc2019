@@ -1,6 +1,6 @@
 ![http://dis.co](../../misc/disco-logo.png "Dis.co")
 
-# Lesson (5) - Parallel compute
+# Lesson (5) - Using Disco to perform Video Processing on the Cloud
 ## At this point you should have
 1. The ability to discofy images and videos
 1. Basic experience and understanding of how to work with dis.co cli.
