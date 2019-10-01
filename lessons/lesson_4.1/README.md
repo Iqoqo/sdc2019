@@ -1,6 +1,6 @@
 ![http://dis.co](../../misc/disco-logo.png "Dis.co")
 
-# Lesson (4.1) - Using Disco to Perform Image Processing
+# Lesson (4.1) - Using Disco to Perform Image Processing on the Cloud
 
 ## At this point you should have
 1. The ability to discofy images and videos
@@ -18,7 +18,7 @@
     disco add --name disco_image --script glasses_4.py --input team.jpg --wait --run --download
 
     ```
-3. Extract the zip file inside the `<job id>-<job name>'/results` folder. After extracted, there will be 3 files inside the zip folder:
+3. Extract the zip file inside the `<job id>-<job name>/results` folder. After extracted, there will be 3 files inside the zip folder:
 
     ```
     IqoqoTask.stderr.0.txt - the error output       
