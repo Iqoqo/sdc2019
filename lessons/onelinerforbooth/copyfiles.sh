@@ -13,9 +13,8 @@ activate(){
     virtualenv boothenv
 
     source boothenv/bin/activate
+    brew install cmake
+    pip3 install -r requirements.txt
+    python3 test_1.py
 }
-
-pip3 install -r requirements.txt
-
-python3 test_1.py
-
+activate
