@@ -15,8 +15,3 @@ def test_all_imports():
     import imutils
     import random
     print("imports all available installation seems ok")
-
-
-if __name__=="__main__":
-    test_hello_disco()
-    test_all_imports()
