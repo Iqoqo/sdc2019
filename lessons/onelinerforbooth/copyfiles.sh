@@ -1,4 +1,4 @@
-!#/bin/bash
+#!/bin/bash
 
 echo "Welcome to Dis.co"
 
