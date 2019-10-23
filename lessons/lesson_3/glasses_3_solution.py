@@ -18,7 +18,6 @@ SHADES_EYE_DISTANCE = SHADES_RIGHT_EYE_POS[0] - SHADES_LEFT_EYE_POS[0]
 
 ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../.."))
 
-
 # utility functions
 def abs_path(rel_path):
     return os.path.join(ROOT_DIR, rel_path)
@@ -256,8 +255,9 @@ def discofy_video(in_video_path, out_video_path):
 
     frame_count = 0
     overlays = overlay_iterator()
-
+    frame_counter=0
     while cap.isOpened():
+        frame_counter=frame_counter+1
         ret, frame = cap.read()
 
         if not ret:
@@ -268,6 +268,8 @@ def discofy_video(in_video_path, out_video_path):
         frame_count += 1
         out_frame = mesh_overlays(frame, shades_overlay, detector, predictor)
         out.write(out_frame)
+        if frame_counter % 100 == 0:
+            print("Processed "+str(frame_counter)+" frames...")
 
     # Release capture devices
     cap.release()
