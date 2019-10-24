@@ -1,5 +1,4 @@
 set -x
-
 # split the toy video (3:06 minutes) into 30 seconds parts
 ffmpeg -i samsung10.mp4 -c copy -map 0 -segment_time 00:00:10 -f segment split%03d.mp4
 
@@ -22,4 +21,3 @@ mv discofy_samsung.mp4 ../..
 
 # go back home
 cd ../..
- 
