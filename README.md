@@ -39,13 +39,13 @@ https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 Then, the source code of the lessons can be downloaded from the GitHub repository. 
 
 ```
-https://github.com/Iqoqo/sdc2019
+https://github.com/iqoqo/sdc2019
 ```
 
 To download the code, you can use the following command with a command-line interface. 
 
 ``` 
-git clone https://github.com/Iqoqo/sdc2019
+git clone https://github.com/iqoqo/sdc2019
 ```
 
 ## What we'll do today
