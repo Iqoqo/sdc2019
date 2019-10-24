@@ -17,7 +17,6 @@ IF "%1"=="5" (
     GOTO:run_lesson_5
 )
 
-#always run this to ensure our environment is up-to-date
 docker pull iqoqo/discofy:sdc.local
 docker tag iqoqo/discofy:sdc.local discofy:sdc.local
  
