@@ -48,6 +48,25 @@ To download the code, you can use the following command with a command-line inte
 git clone https://github.com/iqoqo/sdc2019
 ```
 
+
+To run the lessons, you can use the run scripts we provided. 
+
+```
+sh run_lesson.sh <lesson number> 
+```
+In Windows, you will run this in a Command Prompt at the project root directory.  
+
+``` 
+.\run_lesson_windows.bat <lesson number> 
+```
+For example, to run the solution in lesson 1, we enter this at the project root directory.
+
+```
+sh run_lesson.sh 1
+```
+
+
+
 ## What we'll do today
 1) Look at a cool example of a toy image and video processing code
 2) Use Dis.co for parallel batch computing using the Dis.co's command-line interface (CLI) 
