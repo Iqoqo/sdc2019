@@ -268,7 +268,7 @@ def discofy_video(in_video_path, out_video_path):
         frame_count += 1
         out_frame = mesh_overlays(frame, shades_overlay, detector, predictor)
         out.write(out_frame)
-        if frame_counter % 100 == 0:
+        if frame_counter % 30 == 0:
             print("Processed "+str(frame_counter)+" frames...")
 
     # Release capture devices
