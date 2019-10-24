@@ -1,5 +1,8 @@
 #!/bin/bash
-
+setup_env(){
+    docker pull iqoqo/discofy:sdc.local
+    docker tag iqoqo/discofy:sdc.local discofy:sdc.local
+}
 run_lesson_1(){
     echo "Running Lesson 1"
     docker run -it -v `pwd`:/home/codelab/ -w /home/codelab/lessons/lesson_1/ discofy:sdc.local pytest
@@ -27,6 +30,10 @@ run_lesson_5(){
     echo "docker run -it -v `pwd`:/home/codelab/  -w /home/codelab/lessons/lesson_5 discofy:sdc.local sh parallel_solution.sh"
     docker run -it -v `pwd`:/home/codelab/  -w /home/codelab/lessons/lesson_5 discofy:sdc.local sh parallel_solution.sh
 }
+
+#always run this to ensure the environment is latest
+setup_env
+
 if [ $# -eq 0 ]
   then
     echo "Please provide the lesson number. (e.g., ./run_lesson.sh 1)"

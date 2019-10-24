@@ -16,11 +16,14 @@ IF "%1"=="4" (
 IF "%1"=="5" (
     GOTO:run_lesson_5
 )
+
+#always run this to ensure our environment is up-to-date
+docker pull iqoqo/discofy:sdc.local
+docker tag iqoqo/discofy:sdc.local discofy:sdc.local
+ 
 :run_lesson_1
     echo "Running Lesson 1" 
-    docker pull iqoqo/discofy:sdc.local
-    docker tag iqoqo/discofy:sdc.local discofy:sdc.local
-    docker run -it -v %cd%:/home/codelab/ -w /home/codelab/lessons/lesson_1/ discofy:sdc.local pytest
+   docker run -it -v %cd%:/home/codelab/ -w /home/codelab/lessons/lesson_1/ discofy:sdc.local pytest
 GOTO End
 
 :run_lesson_2
