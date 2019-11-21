@@ -17,7 +17,7 @@ SHADES_RIGHT_EYE_POS = (1106, 450)
 SHADES_EYE_DISTANCE = SHADES_RIGHT_EYE_POS[0] - SHADES_LEFT_EYE_POS[0]
 
 ROOT_DIR = '/home/codelab'
-OUT_DIR = '/local/run-result'
+OUT_DIR = './run-result'
 
 
 # utility functions
