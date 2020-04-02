@@ -21,8 +21,8 @@
 3. Extract the zip file inside the `<job id>-<job name>/results` folder. After extracted, there will be 3 files inside the zip folder:
 
     ```
-    IqoqoTask.stderr.0.txt - the error output       
-    IqoqoTask.stdout.0.txt - the stdout output
+    DiscoTask.stderr.0.txt - the error output       
+    DiscoTask.stdout.0.txt - the stdout output
     disco_team.jpg - the result image
     ```
     
